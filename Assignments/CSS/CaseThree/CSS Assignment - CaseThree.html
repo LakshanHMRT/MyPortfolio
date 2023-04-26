@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>CSS Case_03</title>
+    <link rel="stylesheet" href="assets/css-reset.css">
+    <style>
+
+        main {
+            width: 98.9vw;
+            height: 300vh;
+            position: relative;
+        }
+
+        main > div {
+            position: fixed;
+            width: 220px;
+            height: 220px;
+            border-radius: 100%;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+            border: 30px solid gray;
+        }
+
+        main > div > div {
+            position: fixed;
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+            border: 20px solid red;
+        }
+
+        main > section {
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+            right: 0;
+            left: 0;
+        }
+
+        main > section:nth-child(1) {
+            top: 0;
+        }
+
+        main > section:nth-child(2) {
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        main > section:nth-child(3) {
+            bottom: 0;
+        }
+
+        main > section > div {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        main > section:nth-child(1) > div {
+            background-color: purple;
+            text-align: center;
+        }
+
+        main > section:nth-child(2) > div {
+            background-color: deepskyblue;
+            text-align: center;
+        }
+
+        main > section:nth-child(3) > div {
+            background-color: coral;
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<main>
+
+    <section>
+        <div>Hello</div>
+    </section>
+
+    <section>
+        <div>
+            <Hello>Welcome To</Hello>
+        </div>
+    </section>
+
+    <section>
+        <div>Institute of Software Engineering</div>
+    </section>
+
+    <div>
+        <div></div>
+    </div>
+
+</main>
+
+</body>
+
+</html>
