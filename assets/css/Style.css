@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    position: relative;
+    width: 100vw;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+/* css styles for <main> */
+main {
+    width: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0;
+    background-color: grey;
+}
+
+nav {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav > menu {
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 1px;
+}
+
+nav > menu > li {
+    display: inline-block;
+    margin-left: 28px;
+    font-family: sans-serif;
+    font-size: 26px;
+}
+
+nav > menu > li > a {
+    text-decoration: none;
+    color: black;
+}
+
