@@ -4,8 +4,19 @@ body {
     width: 100vw;
 }
 
+/* css styles for <header> */
 ::-webkit-scrollbar {
     width: 0;
+}
+
+header {
+    width: 100%;
+    height: 63px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    opacity: 0.84;
 }
 
 /*Adding new fonts*/
@@ -51,7 +62,7 @@ main {
     left: 0;
     right: 0;
     margin: 0;
-    background-color: grey;
+    background-color: #332F2E;
 }
 
 nav {
@@ -70,15 +81,71 @@ nav > menu {
     top: 1px;
 }
 
-nav > menu > li {
+header > nav > menu > li {
     display: inline-block;
+}
+
+header > nav > menu > li > a{
     margin-left: 28px;
     font-family: Eczar-Regular;
-    font-size: 26px;
+    color: white;
+    font-size: 25px;
 }
 
 nav > menu > li > a {
     text-decoration: none;
     color: black;
 }
+header > nav > button{
+    margin-left: 16px;
+    margin-top: 7px;
+    font-family: MySoul-Regular;
+    color: #45ECFE;
+    font-size: 40px;
+    border: none;
+    background-color: black;
+    cursor: pointer;
+}
 
+/*img[src="assets/images/image.png"] {
+    float: right;
+    width: 500px;
+    height: 700px;
+    margin-top: 500px;
+
+}*/
+
+img[src="assets/images/pngwing.com.png"] {
+    transform: rotate(180deg);
+    float: right;
+    width: 1540px;
+    height: 1500px;
+    opacity: 0.8;
+
+}
+
+
+
+/*.container {
+    position: relative;
+}
+
+.mainBackground {
+    position: absolute;
+    transform: rotate(180deg);
+    float: right;
+    width: 1540px;
+    height: 1500px;
+    opacity: 0.8;
+}
+
+.mainContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}*/
+
+footer{
+    background-color: #041335;
+}
