@@ -8,6 +8,42 @@ body {
     width: 0;
 }
 
+/*Adding new fonts*/
+@font-face {
+    font-family: 'Eczar-Regular';
+    src: url('fonts/Eczar-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Eczar-SemiBold';
+    src: url('fonts/Eczar-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Gupter-Regular';
+    src: url('fonts/Gupter-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Kalam-Regular';
+    src: url('fonts/Kalam-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'KoHo-Regular';
+    src: url('fonts/KoHo-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'KoHo-SemiBold';
+    src: url('fonts/KoHo-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'MySoul-Regular';
+    src: url('fonts/MySoul-Regular.ttf');
+}
+
 /* css styles for <main> */
 main {
     width: 100%;
@@ -37,7 +73,7 @@ nav > menu {
 nav > menu > li {
     display: inline-block;
     margin-left: 28px;
-    font-family: sans-serif;
+    font-family: Eczar-Regular;
     font-size: 26px;
 }
 
