@@ -1,8 +1,16 @@
 body {
     margin: 0;
+    padding: 0;
+    border: 0;
     position: relative;
     width: 100vw;
 }
+
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
 
 /* css styles for <header> */
 ::-webkit-scrollbar {
@@ -62,7 +70,8 @@ main {
     left: 0;
     right: 0;
     margin: 0;
-    background-color: #332F2E;
+    background-color: black;
+    color: white;
 }
 
 nav {
@@ -107,44 +116,37 @@ header > nav > button{
     cursor: pointer;
 }
 
-/*img[src="assets/images/image.png"] {
-    float: right;
-    width: 500px;
-    height: 700px;
-    margin-top: 500px;
-
-}*/
-
-img[src="assets/images/pngwing.com.png"] {
-    transform: rotate(180deg);
-    float: right;
-    width: 1540px;
-    height: 1500px;
-    opacity: 0.8;
-
-}
-
-
-
-/*.container {
+.container {
     position: relative;
 }
 
 .mainBackground {
-    position: absolute;
+    background-image: url("mainBGimage.png");
+    background-size: cover;
     transform: rotate(180deg);
     float: right;
     width: 1540px;
     height: 1500px;
     opacity: 0.8;
+    z-index: 2;
 }
 
 .mainContent {
+    position: relative;
+}
+
+.proPic {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}*/
+    padding-top: 137px;
+    padding-left: 977px;
+    height: 560px;
+    width: 432px;
+    transform: scale(1.18);
+}
+
+.sec01article{
+
+}
 
 footer{
     background-color: #041335;
