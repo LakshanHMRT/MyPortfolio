@@ -120,6 +120,15 @@ header > nav > button{
     position: relative;
 }
 
+.proPic {
+    position: absolute;
+    padding-top: 137px;
+    padding-left: 977px;
+    height: 560px;
+    width: 432px;
+    transform: scale(1.18);
+}
+
 .mainBackground {
     background-image: url("mainBGimage.png");
     background-size: cover;
@@ -135,19 +144,108 @@ header > nav > button{
     position: relative;
 }
 
-.proPic {
+.sec01article{
     position: absolute;
-    padding-top: 137px;
-    padding-left: 977px;
-    height: 560px;
-    width: 432px;
-    transform: scale(1.18);
+    padding-top: 255px;
+    padding-left: 60px;
 }
 
-.sec01article{
+.sec01article > h4{
+    color: white;
+    opacity: 60%;
+    font-family: Gupter-Regular;
+    font-size: 32px;
+    padding-bottom: 5px;
+}
 
+.sec01article > h1:nth-of-type(1){
+    color: white;
+    font-size: 78px;
+    font-family: KoHo-Regular;
+    float: left;
+    width: 50%;
+}
+
+.sec01article > h1:nth-of-type(2){
+    color: #45ECFE;
+    font-size: 78px;
+    font-family: KoHo-Regular;
+    float: left;
+    width: 50%;
+}
+
+.sec01article > h1:nth-of-type(3){
+    color: #45ECFE;
+    font-size: 78px;
+    font-family: KoHo-Regular;
+}
+
+.sec01article > h5{
+    color: white;
+    opacity: 60%;
+    font-size: 20px;
+    font-family: KoHo-Regular;
+}
+
+.sec01article > h5:nth-of-type(1){
+    padding-top: 20px;
+}
+
+.sec01article > h5:nth-of-type(3){
+    padding-bottom: 40px;
+}
+
+.sec01article > button:nth-of-type(1){
+    background-color: #45ECFE;
+    color: black;
+    font-family: Eczar-Regular;
+    font-size: 24px;
+    padding-top: 5px;
+    border-radius: 20px;
+    width: 145px;
+}
+
+.downCV{
+    background-color: grey;
+    color: black;
+    font-family: Eczar-Regular;
+    font-size: 24px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.sec01article > button:nth-of-type(1):hover{
+    background-color: #77d1ff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.downCV:hover{
+    background-color: #b3b3b3;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.sectionGallery > img:nth-of-type(4){
+    filter: grayscale(100%);
+}
+
+.line1{
+    height: 2px;
+    width: 1080px;
+    background-color: #00205C;
+}
+
+.line2{
+    height: 2px;
+    width: 1080px;
+    background-color: rgba(0, 32, 92, 0.6);
 }
 
 footer{
     background-color: #041335;
 }
+
+
