@@ -1,32 +1,3 @@
-body {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    position: relative;
-    width: 100vw;
-}
-
-
-h1, h2, h3, h4, h5, h6{
-    margin: 0;
-}
-
-
-/* css styles for <header> */
-::-webkit-scrollbar {
-    width: 0;
-}
-
-header {
-    width: 100%;
-    height: 63px;
-    background-color: black;
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    opacity: 0.84;
-}
-
 /*Adding new fonts*/
 @font-face {
     font-family: 'Eczar-Regular';
@@ -63,13 +34,52 @@ header {
     src: url('fonts/MySoul-Regular.ttf');
 }
 
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: relative;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: relative;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+/* css styles for <header> */
+::-webkit-scrollbar {
+    width: 0;
+}
+
+header {
+    width: 100vw;
+    height: 63px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    opacity: 0.84;
+}
+
 /* css styles for <main> */
 main {
-    width: 100%;
+    width: 100vw;
     position: relative;
     left: 0;
     right: 0;
     margin: 0;
+    padding: 0;
     background-color: black;
     color: white;
 }
@@ -121,9 +131,10 @@ header > nav > button{
 }
 
 .proPic {
-    position: absolute;
+    position: relative;
     padding-top: 137px;
-    padding-left: 977px;
+    padding-right: 36px;
+    float: right;
     height: 560px;
     width: 432px;
     transform: scale(1.18);
@@ -132,12 +143,10 @@ header > nav > button{
 .mainBackground {
     background-image: url("mainBGimage.png");
     background-size: cover;
-    transform: rotate(180deg);
     float: right;
-    width: 1540px;
-    height: 1500px;
+    width: 100vw;
+    height: 760px;
     opacity: 0.8;
-    z-index: 2;
 }
 
 .mainContent {
@@ -150,13 +159,28 @@ header > nav > button{
     padding-left: 60px;
 }
 
-.sec01article > h4{
+.sec01article > div > h4{
     color: white;
     opacity: 60%;
     font-family: Gupter-Regular;
     font-size: 32px;
     padding-bottom: 5px;
 }
+
+.sec01ani{
+    overflow: hidden; /* Hide text overflow */
+    border-right: .15em solid darkblue; /* Create a cursor effect */
+    white-space: nowrap; /* Keep text on one line */
+    margin: 0; /* Remove default margin */
+    letter-spacing: .15em; /* Add letter spacing for legibility */
+    animation: typing 3s steps(40) forwards;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 76% }
+}
+
 
 .sec01article > h1:nth-of-type(1){
     color: white;
@@ -230,18 +254,6 @@ header > nav > button{
 
 .sectionGallery > img:nth-of-type(4){
     filter: grayscale(100%);
-}
-
-.line1{
-    height: 2px;
-    width: 1080px;
-    background-color: #00205C;
-}
-
-.line2{
-    height: 2px;
-    width: 1080px;
-    background-color: rgba(0, 32, 92, 0.6);
 }
 
 footer{
