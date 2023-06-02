@@ -167,19 +167,27 @@ header > nav > button{
     padding-bottom: 5px;
 }
 
-.sec01ani{
+.sec01ani {
     overflow: hidden; /* Hide text overflow */
     border-right: .15em solid darkblue; /* Create a cursor effect */
     white-space: nowrap; /* Keep text on one line */
     margin: 0; /* Remove default margin */
     letter-spacing: .15em; /* Add letter spacing for legibility */
-    animation: typing 3s steps(40) forwards;
+    animation: typing 10s steps(40) infinite;
 }
 
 @keyframes typing {
-    from { width: 0 }
-    to { width: 76% }
+    0%, 100% {
+        width: 0;
+    }
+    10%, 90% {
+        width: 38%;
+    }
+    15%, 85% {
+        width: 76%;
+    }
 }
+
 
 
 .sec01article > h1:nth-of-type(1){
@@ -255,6 +263,52 @@ header > nav > button{
 .sectionGallery > img:nth-of-type(4){
     filter: grayscale(100%);
 }
+.sec02article{
+    padding-bottom: 5vw;
+}
+
+.sec02article > div > h3{
+    color: white;
+    font-size: 44px;
+    font-family: Eczar-Regular;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50vw;
+}
+
+.sec02article > div > h5{
+    color: rgba(255, 255, 255, 0.76);
+    font-size: 24px;
+    font-family: KoHo-Regular;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 90px;
+    padding-left: 90px;
+}
+
+.section03 > div{
+    background-color: rgba(217, 217, 217, 0.1);
+    border-radius: 20px;
+    width: 90%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section03 > div > h3{
+    color: white;
+    font-size: 44px;
+    font-family: Eczar-Regular;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1vw;
+}
+
+
 
 footer{
     background-color: #041335;
