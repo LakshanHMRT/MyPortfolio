@@ -188,8 +188,6 @@ header > nav > button{
     }
 }
 
-
-
 .sec01article > h1:nth-of-type(1){
     color: white;
     font-size: 78px;
@@ -296,6 +294,7 @@ header > nav > button{
     height: 400px;
     align-items: center;
     justify-content: center;
+    padding-left: 10vw;
 }
 
 .section03 > div > h3{
@@ -306,9 +305,43 @@ header > nav > button{
     justify-content: center;
     align-items: center;
     padding-top: 1vw;
+    padding-left: 10vw;
+    padding-right: 20vw;
 }
 
+.section03 > div > div:nth-of-type(1){
+    position: absolute;
+    padding-left: 10vw;
+    padding-top: 4vw;
+    transform: scale(1.4);
+}
 
+.section03 > div > div:nth-of-type(2){
+    position: absolute;
+    padding-left: 24vw;
+    padding-top: 4vw;
+    transform: scale(1.4);
+}
+
+.section03 > div > div:nth-of-type(3){
+    position: absolute;
+    padding-left: 40vw;
+    padding-top: 4vw;
+    transform: scale(1.4);
+}
+
+.section03 > div > div:nth-of-type(4){
+    position: absolute;
+    padding-left: 54vw;
+    padding-top: 4vw;
+    transform: scale(1.4);
+}
+
+.section03 > div > h4{
+    font-family: Kalam-Regular;
+    color: rgba(40, 203, 220, 0.68);
+    font-size: 40px;
+}
 
 footer{
     background-color: #041335;
