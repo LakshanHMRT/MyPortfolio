@@ -341,6 +341,7 @@ header > nav > button{
     font-family: Kalam-Regular;
     color: rgba(40, 203, 220, 0.68);
     font-size: 40px;
+    transform: rotate(-4.39deg);
 }
 
 footer{
