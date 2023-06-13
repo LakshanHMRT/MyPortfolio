@@ -344,6 +344,76 @@ header > nav > button{
     transform: rotate(-4.39deg);
 }
 
+.divDiviner3\&4{
+    height: 3vw;
+    width: 100%;
+    background-color: black;
+}
+
+.divDiviner4\&5{
+    height: 3vw;
+    width: 100%;
+    background-color: black;
+}
+
+.section04 > div{
+    background-color: rgba(217, 217, 217, 0.1);
+    border-radius: 20px;
+    width: 90%;
+    height: 1600px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10vw;
+    padding-top: 1vw;
+}
+
+.section04 > div > h3{
+    color: white;
+    font-size: 44px;
+    font-family: Eczar-Regular;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-right: 8vw;
+}
+
+.slider {
+    width: 900px;
+    height: 510px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@keyframes slideAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
 footer{
     background-color: #041335;
 }
