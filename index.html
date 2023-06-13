@@ -88,47 +88,57 @@
             </div>
         </section>
         <section>
-            <br>
-            <h3>Projects</h3>
-            <br>
-            <img src="assets/images/pngwing.com (14).png" alt="" width="50" height="50">
-            <h4>Web Designs</h4>
-            <h4>UI Designs</h4>
-            <img src="assets/images/My web design 1.PNG" alt="" width="700" height="370">
-            <img src="assets/images/My web design 2.PNG" alt="" width="700" height="370">
-            <br>
-            <br>
-            <br>
-            <img src="assets/images/pngwing.com (16).png" alt="" width="50" height="50">
-            <h4>POS Systems using java</h4>
-            <img src="assets/images/Screenshot  4.jpg" alt="" width="700" height="370">
-            <img src="assets/images/Screenshot  5.jpg" alt="" width="700" height="370">
-            <img src="assets/images/Screenshot  2.jpg" alt="" width="700" height="370">
-            <img src="assets/images/Screenshot  1.jpg" alt="" width="700" height="370">
+            <div class="divDiviner3&4"></div>
+        </section>
+        <section class="section04">
+            <div>
+                <h3>Projects</h3>
+                <br>
+                <img src="assets/images/pngwing.com (14).png" alt="" width="50" height="50">
+                <h4>Web Designs</h4>
+                <h4>UI Designs</h4>
+                <img src="assets/images/My web design 1.PNG" alt="" width="700" height="370">
+                <img src="assets/images/My web design 2.PNG" alt="" width="700" height="370">
+                <br>
+                <br>
+                <br>
+                <img src="assets/images/pngwing.com (16).png" alt="" width="50" height="50">
+                <h4>POS Systems using java</h4>
+                <div class="slider">
+                    <div class="slide"><img src="assets/images/Screenshot  4.jpg" alt="Image 1" width="700" height="370"></div>
+                    <div class="slide"><img src="assets/images/Screenshot  5.jpg" alt="Image 2" width="700" height="370"></div>
+                    <div class="slide"><img src="assets/images/Screenshot  2.jpg" alt="Image 3" width="700" height="370"></div>
+                    <div class="slide"><img src="assets/images/Screenshot  1.jpg" alt="Image 4" width="700" height="370"></div>
+                </div>
+            </div>
         </section>
         <section>
-            <br>
-            <article>
-                <h3>Let's work together!</h3>
-                <form action="#" method="POST">
-                    <div>
-                      <label for="name">Name:</label>
-                      <input type="text" id="name" name="name" required>
-                      <label for="email">Email:</label>
-                      <input type="email" id="email" name="email" required>
-                    </div>
-                    <div>
-                      <label for="subject">Subject:</label>
-                      <input type="text" id="subject" name="subject" required>
-                    </div>
-                    <div>
-                      <label for="message">Type your message:</label>
-                      <textarea id="message" name="message" required></textarea>
-                    </div>
-                    <button type="submit">Submit</button>
-                  </form>  
-            </article>
-            <nav></nav>
+            <div class="divDiviner4&5"></div>
+        </section>
+        <section class="section05">
+            <div>
+                <article>
+                    <h3>Let's work together!</h3>
+                    <form action="#" method="POST">
+                        <div>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div>
+                            <label for="subject">Subject:</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div>
+                            <label for="message">Type your message:</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
+                </article>
+                <nav></nav>
+            </div>
         </section>
         <section class="sectionGallery">
             <br>
@@ -178,7 +188,20 @@
         </section>
     </footer>
 
+<script>
+    function startSlider() {
+        let slides = document.querySelectorAll('.slide');
+        let currentSlide = 0;
 
+        setInterval(() => {
+            slides[currentSlide].className = 'slide';
+            currentSlide = (currentSlide + 1) % slides.length;
+            slides[currentSlide].className = 'slide active';
+        }, 3000);
+    }
+
+    startSlider();
+</script>
 </body>
 
 </html>
