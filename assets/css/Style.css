@@ -258,9 +258,6 @@ header > nav > button{
     cursor: pointer;
 }
 
-.sectionGallery > img:nth-of-type(4){
-    filter: grayscale(100%);
-}
 .sec02article{
     padding-bottom: 5vw;
 }
@@ -285,6 +282,10 @@ header > nav > button{
     padding-top: 20px;
     padding-right: 90px;
     padding-left: 90px;
+}
+
+.section03{
+    padding: 20px;
 }
 
 .section03 > div{
@@ -345,15 +346,19 @@ header > nav > button{
 }
 
 .divDiviner3\&4{
-    height: 3vw;
+    height: 0.2vw;
     width: 100%;
     background-color: black;
 }
 
 .divDiviner4\&5{
-    height: 3vw;
+    height: 0.2vw;
     width: 100%;
     background-color: black;
+}
+
+.section04{
+    padding: 20px;
 }
 
 .section04 > div{
@@ -413,9 +418,163 @@ header > nav > button{
     }
 }
 
+.section05 > div{
+    background-color: rgba(217, 217, 217, 0.1);
+    border-radius: 20px;
+    width: 90%;
+    height: 515px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10vw;
+    padding-top: 1vw;
+}
+
+.section05 > div > article > h3{
+    color: white;
+    font-size: 44px;
+    font-family: Eczar-Regular;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10vw;
+    padding-top: 1vw;
+}
+
+.section05 {
+    color: #fff;
+    padding: 20px;
+}
+
+.section05 h3 {
+    margin-top: 0;
+}
+
+.section05 form {
+    margin-top: 20px;
+}
+
+.section05 label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: Eczar-Regular;
+    font-size: 18px;
+}
+
+.section05 input[type="text"],
+.section05 input[type="email"],
+.section05 textarea {
+    width: 86.5%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #000000;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Eczar-Regular;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+.section05 button {
+    background-color: #000000;
+    color: #1de0d1;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.section05 button:hover {
+    background-color: #071d26;
+}
+
+.section05 button:focus {
+    outline: none;
+}
+
+.section05 nav {
+    margin-top: 20px;
+    background-color: #444;
+    height: 50px;
+}
+
+.sectionGallery{
+    padding: 20px;
+}
+
+.sectionGallery > div{
+    background-color: rgba(217, 217, 217, 0.1);
+    border-radius: 20px;
+    width: 90%;
+    height: 444px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10vw;
+    padding-top: 1vw;
+}
+
+.sectionGallery > div > h3{
+    color: white;
+    font-size: 44px;
+    font-family: Eczar-Regular;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10vw;
+    padding-top: 1vw;
+    padding-bottom: 1.8vw;
+}
+
+.sectionGallery {
+    text-align: center;
+}
+
+.slider2 {
+    position: relative;
+    width: 240px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slides2 {
+    display: flex;
+    width: 400%;
+    height: 300px;
+    animation: slideAnimation2 65s infinite;
+}
+
+.slides2 img {
+    width: 32%;
+    height: auto;
+    object-fit: cover;
+}
+
+@keyframes slideAnimation2 {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-75%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
 
 footer{
     background-color: #041335;
+    position: relative;
+}
+
+.sectionFooter > address > h2:nth-of-type(1){
+    font-size: 60px;
+    color: #45ECFE;
+    font-family: MySoul-Regular;
+    font-weight: lighter;
+    float: right;
+    padding-right: 2vw;
+    padding-top: 1vw;
 }
 
 
