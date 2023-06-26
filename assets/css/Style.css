@@ -577,4 +577,37 @@ footer{
     padding-top: 1vw;
 }
 
+.sectionFooter > address > a > h5{
+    font-size: 22px;
+    font-family: Eczar-Regular;
+    color: #0093DD;
+    font-weight: lighter;
+    padding-left: 1vw;
+    padding-top: 2vw;
+}
+
+.sectionFooter2 > div > img{
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.78vw;
+    padding-left: 0.82vw;
+}
+
+.sectionFooter2 > div{
+    background-color: white;
+    width: 60px;
+    height: 75px;
+    border-radius: 100px;
+    padding-right: 1vw;
+}
+
+.sectionFooter2 > address{
+    color: rgba(69, 236, 254, 0.82);
+    font-size: 24px;
+    font-family: Eczar-Regular;
+    font-weight: lighter;
+    text-align: right;
+    padding-right: 1vw;
+    padding-bottom: 1vw;
+}
 
