@@ -10,7 +10,6 @@ This is for demonstrating my skills.
   <li>Jquery</li>
 </ul>
 <br>
-<br>
 <h2>References</h2>
 <br>
 Site Map: https://app.diagrams.net/#G18JU919THSrFWR40QIuoW7nKmQgkuMIQL<br>
@@ -22,4 +21,4 @@ GitHub Pages: https://lakshanhmrt.github.io/MyPortfolio
 <br>
 <br>
 <h3>Developed by Thushara Lakshan</h2>
-<h4>Copyright © 2023 All Rights Reserved</h4>
+<h4>Copyright © 2023 All Rights Reserved.</h4>
