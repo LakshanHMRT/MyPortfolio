@@ -1,7 +1,6 @@
 # MyPortfolio
 This is for demonstrating my skills. 
 <h2>Technology & Frameworks</h2>
-<br>
 <ul>
   <li>HTML</li>
   <li>CSS</li>
@@ -10,7 +9,6 @@ This is for demonstrating my skills.
   <li>Jquery</li>
 </ul>
 <h2>References</h2>
-<br>
 <ul>
   <li>Site Map: https://app.diagrams.net/#G18JU919THSrFWR40QIuoW7nKmQgkuMIQL</li>
   <li>Wireframe: https://app.diagrams.net/#G1CMpploi8q6NuhTfKnL4e7CX7vyJJjng0</li>
